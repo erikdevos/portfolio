@@ -1,0 +1,148 @@
+body, html {
+	font-family: $fon-fam-pri;
+	font-size: 1rem;
+	font-weight: normal;
+	line-height: 1.1rem;
+
+}
+
+body {
+	background-color: $lig-col;
+	color: $dar-col;
+}
+
+h1, h2, h3, h4, h5 {
+	font-family: $fon-fam-pri;
+	margin-top: 0;
+	color: $dar-col;
+	font-weight: 400;
+}
+
+h1 {
+	font-size: 2.5rem;
+	line-height: 3rem;
+	margin-bottom: 1rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+	line-height: 2.3rem;
+	margin-bottom: 1rem;
+}
+
+h3 {
+	margin-bottom: 1rem;
+}
+
+p {
+	width: 100%;
+	//max-width: 45rem;
+	line-height: 1.7rem;
+	margin-bottom: 1rem;
+	color: $dar-col;
+
+	&:last-child {
+		margin-bottom: 0;
+	}
+
+	a {
+		color: $pri-col;
+		&:hover {
+			color: $sec-col;
+		}
+	}
+	&+hr {
+		margin-top: 1rem;
+	}
+}
+
+hr {
+
+}
+
+ul {
+	margin-bottom: 1rem;
+	li {
+		margin-bottom: 0.5rem;
+	}
+}
+
+// Header navigation
+.header-wrapper {
+	padding-top: 1.5rem;
+	padding-bottom: 1.5rem;
+	margin-bottom: 3rem;
+	min-height: 100vh;
+
+	@include background-image;
+
+	.nav-wrapper {
+		display: flex;
+		margin-left: auto;
+		justify-content: flex-end;
+		width: 100%;
+
+		.cta-button {
+			margin-left: auto;
+		}
+	}
+
+	h1 {
+		color: $lig-col;
+		margin-bottom: 0;
+	}
+}
+
+
+// CTA-button
+.cta-button {
+	background-color: $dar-col;
+	padding-left: 2rem;
+	padding-right: 2rem;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	border-radius: 2rem;
+	color: $lig-col;
+	text-decoration: none;
+	display: inline-flex;
+	align-items: center;
+	align-self: flex-start;
+	&:hover {
+		background-color: lighten($pri-col, 10%);
+	}
+
+	&.lig {
+		background-color: $lig-col;
+		color: $dar-col;
+	}
+}
+
+// Main content section
+.main-content-section {
+	margin-bottom: 3rem;
+
+	h2 {
+		font-size: 2.5rem;
+		line-height: 3.2rem;
+		margin-bottom: 2rem;
+	}
+}
+
+// Main footer
+.main-footer-section {
+	margin-top: auto;
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+	color: $lig-col;
+	background-color: $dar-col;
+	min-height: 20rem;
+}
+
+
+// Sub footer
+.sub-footer-section {
+	background-color: lighten($dar-col, 10%);
+	color: $lig-col;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
