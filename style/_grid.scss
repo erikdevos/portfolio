@@ -138,11 +138,14 @@
 .page-wrapper {
 	display: flex;
 	width: 100%;
-	height: auto;
+	//height: 100vh;
 	min-height: 100vh;
 	flex: 1;
 	flex-direction: column;
 	position: relative;
+	overflow: auto;
+	//scroll-snap-type: y mandatory;
+
 }
 
 
@@ -154,6 +157,9 @@
 	flex-direction: column;
 	justify-content: center;
 	flex-basis: auto; // IE11 fix
+	scroll-snap-align: start;
+
+
 	// Add padding to block
 	&.padding-top-bot-xs {
 		padding-top: 1rem;
@@ -221,6 +227,7 @@
 	&.padding-bot {
 		padding-bottom: 3rem;
 	}
+	
 
 	// Limit content width inside block
 	> .content-wrapper {

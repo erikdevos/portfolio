@@ -21,3 +21,12 @@
 
 <!-- Custom styling -->
 <link rel="stylesheet" href="/style/style.css?v=<?php date('Y-m-d H:i:s'); ?>">
+
+<!-- jQuery -->
+<script src="//code.jquery.com/jquery-3.3.1.min.js" type="text/javascript"></script>
+
+<!-- ScrollTo -->
+<script type="text/javascript" src="scripting/jquery.scrollTo.min.js?t=1678721666"></script>
+
+<!-- Animate on Scroll -->
+<link href="style/aos.css?t=1" rel="stylesheet">
