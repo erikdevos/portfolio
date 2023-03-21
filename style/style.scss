@@ -10,4 +10,16 @@
 	width: 100%;
 	height: 100%;
 	align-items: center;
+	.header-icon {
+		position: absolute;
+		right: 0;
+		width: 60rem;
+		height: auto;
+		display: block;
+		color: $lig-col;
+		opacity: 0.2;
+		svg {
+			width: 100%;
+		}
+	}
 }
