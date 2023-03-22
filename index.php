@@ -45,13 +45,13 @@
 
 						<h2>Experience</h2>
 						<p>
-							Working in various types of companies for over a decade i've seen it all: Big SAAS projects. Eductional software. Agency work for big commercial clients. Working with non-profit companies.<br>
+							Working in various types of companies for over a decade i've seen it all; Big SAAS projects. Eductional software. Giant webshops. Agency work for big commercial clients.<br>
 						</p>
 						<p>
-							As a front-end developer I always pride myself in my deep knowledge of specific browsers issues. I don't rely on front-end frameworks or templates. I have also worked with many different CMSs through the years. From custom built management systems, to Wordpress or Umbraco.<br>
+							As a Front-end developer I always pride myself in my deep knowledge of specific browsers issues. I don't rely on front-end frameworks or templates. I have also worked with many different CMSs through the years. From custom built management systems, to Wordpress or Umbraco.<br>
 						</p>
 						<p>
-							Due to my experience as working with PHP / MYSQL I have a working knowledge of both techniques and am able to both edit or manage these without outside help.
+							Due to my experience working with PHP / MYSQL I have a working knowledge of Back-end techniques and am often able to both edit or manage these without outside help.
 						</p>
 					</div>	
 
@@ -72,8 +72,8 @@
 						<h2 class="dates-title" data-aos="fade-in" data-aos-duration="1500" data-aos-delay="300" data-aos-offset="10">Why me?</h3>
 
 						<ul class="usps" data-aos="fade-in" data-aos-duration="1500" data-aos-delay="300" data-aos-offset="50">
-							<li>Deep front-end knowledge</li>
-							<li>Focus on user experience (UX)</li>
+							<li>Deep Front-end knowledge</li>
+							<li>Focus on User Experience (UX)</li>
 							<li>Experienced in CSS animation and vector graphics (SVG)</li>
 							<li>SEO and speed optimization</li>
 							<li>Great at working with both Desigers and Technical people</li>
