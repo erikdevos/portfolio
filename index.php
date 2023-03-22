@@ -13,12 +13,6 @@
 		<section class="page-row-wrapper header-wrapper" style="background-image: url(resources/header/header-image.webp);">
 			<div class="content-wrapper flex column align-center">
 
-				<div class="nav-wrapper">
-					<!-- <a class="cta-button lig" href="" target="_blank">
-						Contact &rsaquo;
-					</a> -->
-				</div>
-
 				<!-- Hero image -->
 				<div class="content-wrapper header-content-wrapper column flex">
 					<h1 data-aos="fade-in" data-aos-duration="7000" data-aos-delay="200">Erik de Vos</h1>
@@ -68,7 +62,7 @@
 
 				</main>
 
-				<main class="flex row one">
+				<main class="flex row mobile-reverse one">
 					<div class="flex one align-start margin-right-l" data-aos="fade-in" data-aos-duration="1500" data-aos-delay="300" data-aos-offset="10">
 						<img src="resources/code.webp" alt="">
 					</div>
@@ -101,8 +95,8 @@
 			<div class="anchor" id="projects"></div>
 
 			<div class="content-wrapper column">
-				<h2 class="margin-bottom-l" data-aos="fade-in" data-aos-duration="1500" data-aos-delay="300" data-aos-offset="10">Projects</h2>
-				<h3 class="margin-bottom-l" data-aos="fade-in" data-aos-duration="1500" data-aos-delay="300" data-aos-offset="10">Products i've worked on, where possible built from the ground up.</h3>
+				<h2 data-aos="fade-in" data-aos-duration="1500" data-aos-delay="300" data-aos-offset="10">Projects</h2>
+				<h3 data-aos="fade-in" data-aos-duration="1500" data-aos-delay="300" data-aos-offset="10">Products i've worked on, whenever possible built from the ground up.</h3>
 				<div class="projects-slider" data-aos="fade-in" data-aos-duration="1500" data-aos-delay="300" data-aos-offset="10">
 					<ul>
 						<li>
@@ -137,7 +131,7 @@
 							<a href="https://www.tegek.be" target="_blank" class="project-image">
 								<img src="/resources/projects/tegek.webp" alt="TeGek!? screenshot" title="TeGek!?">
 							</a>
-							<h4 class="project-title">Tegek.be</h4>
+							<h4 class="project-title">Tegek!?</h4>
 							<p>Mental health campaign by the Belgium government. Unique design with a focus on discovery.</p>
 						</li>
 						<li>
@@ -151,15 +145,33 @@
 							<a href="https://www.sad.be" target="_blank" class="project-image">
 								<img src="/resources/projects/sad.webp" alt="SAD screenshot" title="SAD.be">
 							</a>
-							<h4 class="project-title">SAD.de</h4>
+							<h4 class="project-title">SAD - Sint-Annendael</h4>
 							<p>Mental and gereatric care. Focus on delivering a lot of content in a clear and structured way.</p>
 						</li>
+
+						<li>
+							<a href="https://www.pouderoyentonnaer.nl/" target="_blank" class="project-image">
+								<img src="/resources/projects/pouton.webp" alt="Pouderoyen Tonnaer" title="Pouderoyen Tonnaer">
+							</a>
+							<h4 class="project-title">Pouderoyen Tonnaer</h4>
+							<p>Environmental and city planning, environment and law. How can we make this look fresh? We tried!</p>
+						</li>
+
+
+						<li>
+							<a href="https://www.lortyeshop.eu/" target="_blank" class="project-image">
+								<img src="/resources/projects/lortye.webp" alt="L'Ortye shop" title="L'Ortye shop">
+							</a>
+							<h4 class="project-title">L'Ortye shop</h4>
+							<p>Why call or e-mail when you can order your containers or materials directly from the website?</p>
+						</li>
+						
 
 						<li>
 							<a href="https://youlearn.ou.nl/web/guest/welkom" target="_blank" class="project-image">
 								<img src="/resources/projects/youlearn.webp" alt="yOUlearn" title="yOUlearn">
 							</a>
-							<h4 class="project-title">yOUlearn (2016-2017)</h4>
+							<h4 class="project-title">yOUlearn (2016)</h4>
 							<p>Remote learning for the Open University. I've worked on this project's ongoing development improving usability for the experience.</p>
 						</li>
 
@@ -167,7 +179,7 @@
 							<a href="https://www.greenhousegroup.com/en" target="_blank" class="project-image">
 								<img src="/resources/projects/bannerconnect.webp" alt="Bannerconnect" title="Bannerconnect">
 							</a>
-							<h4 class="project-title">Bright 2 / MAPPS (2014-2016)</h4>
+							<h4 class="project-title">CAPPS (2014)</h4>
 							<p>Various projects for Bannerconnect (Now called Greenhouse). Data visualisation, graphic design, UX design.</p>
 						</li>
 					</ul>
@@ -185,7 +197,7 @@
 		<section class="page-row-wrapper main-footer-section">
 			<footer class="content-wrapper column">
 				<div class="footer-content">
-				<?php echo date("Y"); ?> Erik de Vos
+				<?php echo date("Y"); ?> | Erik de Vos
 				</div>
 				
 			</footer>
