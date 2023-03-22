@@ -226,6 +226,9 @@ ul {
 		margin-right: 1rem;
 		font-size: 1.1rem;
 		cursor: pointer;
+		@media only screen and (max-width: $container-size-s) {
+			font-size: 1rem;
+		}
 
 		.arrow {
 			font-weight: bold;
@@ -277,7 +280,10 @@ ul {
 	align-items: center;
 	align-self: flex-start;
 	transition: all 0.5s ease-in-out;
-
+	@media only screen and (max-width: $container-size-s) {
+		padding-left: 1.5rem;
+		padding-right: 1.5rem;
+	}
 	&:hover {
 		background-color: lighten($pri-col, 10%);
 		padding-left: 2.5rem;
@@ -317,6 +323,10 @@ ul {
 		@media only screen and (max-width: $container-size-m) {
 			font-size: 3rem;
 			line-height: 3.5rem;
+		}
+		@media only screen and (max-width: $container-size-s) {
+			font-size: 2.5rem;
+			line-height: 3rem;
 		}
 	}
 
