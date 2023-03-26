@@ -45,13 +45,11 @@
 
 						<h2>Experience</h2>
 						<p>
-							Working in various types of companies for over a decade i've seen it all; Big SAAS projects. Eductional software. Giant webshops. Agency work for big commercial clients.<br>
+							Over the course of my decade-long career, I have worked for various types of companies, gaining experience in a wide range of projects, including big SAAS initiatives, educational software, giant webshops, and agency work for large commercial clients. As a Front-end developer, I take pride in my deep knowledge of specific browser issues, and I do not rely on front-end frameworks or templates. I have worked with many different CMSs, from custom-built management systems to popular platforms like WordPress and Umbraco.
 						</p>
+
 						<p>
-							As a Front-end developer I always pride myself in my deep knowledge of specific browsers issues. I don't rely on front-end frameworks or templates. I have also worked with many different CMSs through the years. From custom built management systems, to Wordpress or Umbraco.<br>
-						</p>
-						<p>
-							Due to my experience working with PHP / MYSQL I have a working knowledge of Back-end techniques and am often able to both edit or manage these without outside help.
+							In addition, my experience with PHP and SQL databases has given me a core understanding of back-end techniques, enabling me to edit and manage these systems without external assistance.</p>
 						</p>
 					</div>	
 
@@ -96,7 +94,15 @@
 
 			<div class="content-wrapper column">
 				<h2 data-aos="fade-in" data-aos-duration="1500" data-aos-delay="300" data-aos-offset="10">Projects</h2>
-				<h3 data-aos="fade-in" data-aos-duration="1500" data-aos-delay="300" data-aos-offset="10">Products i've worked on, whenever possible built from the ground up.</h3>
+				<div class="portfolio-intro">
+					<p>My main task as a Front-end developer is translating a graphic design into clean and structured code that a Developer can start working with.</p>
+					
+					<p>These tasks include setting up the Git respository, setting up the project filestructure and then building the HTML and CSS/Sass. Finally, I bring the design to life through the use of Javascript/jQuery, CSS, and vector animations. After that I optimize the code for speed and search engines.</p>
+					
+					<p>These examples are primarily built from the ground up by me.</p>
+				</div>
+				
+				<!-- Projects slider -->
 				<div class="projects-slider" data-aos="fade-in" data-aos-duration="1500" data-aos-delay="300" data-aos-offset="10">
 					<ul>
 						<li>
@@ -104,28 +110,28 @@
 								<img src="/resources/projects/juwelier-burger.webp" alt="Juwelier Burger screenshot" title="Juwelier Burger">
 							</a>
 							<h4 class="project-title">Juwelier Burger</h4>
-							<p>One of the biggest online used watch sellers in the world. High-end webshop with lots of custom animation and small user-interactions</p>
+							<p>This is one of the largest online retailers for pre-owned watches in the world. The high-end webshop boasts a plethora of animations and small user interactions, enhancing the user experience.</p>
 						</li>
 						<li>
 							<a href="https://www.filipucci.nl" target="_blank" class="project-image">
 								<img src="/resources/projects/filipucci.webp" alt="Filipucci Juweliers screenshot" title="Filipucci Juweliers">
 							</a>
 							<h4 class="project-title">Filipucci Juweliers</h4>
-							<p>High end juweler. Custom webshop with plenty of custom animations and a focus on the user-experiece
+							<p>High-end jeweler with a custom webshop featuring plenty of unique animations and a strong focus on providing a top-notch user experience.
 						</li>
 						<li>
 							<a href="https://www.banenrijklimburg.nl" target="_blank" class="project-image">
 								<img src="/resources/projects/banenrijklimburg.webp" alt="Banenrijk Limburg screenshot" title="Banenrijk Limburg">
 							</a>
 							<h4 class="project-title">Banenrijk Limburg</h4>
-							<p>Job-offer site. Fresh modern look to differenciate from the competition. High focus on speed and animation</p>
+							<p>Modern job-offer site with a focus on speed and animation to stand out from competitors.</p>
 						</li>
 						<li>
 							<a href="https://www.vinciowonen.nl" target="_blank" class="project-image">
 								<img src="/resources/projects/vincio-wonen.webp" alt="Vinciowonen screenshot" title="Vincio wonen">
 							</a>
 							<h4 class="project-title">Vincio Wonen</h4>
-							<p>Local housing foundation. The goal was to make complex information as accessable as possible for a wide array of visitors.</p>
+							<p>Local housing foundation. Our aim was to make complex information easy to access for a wide range of visitors.</p>
 						</li>
 						<li>
 							<a href="https://www.tegek.be" target="_blank" class="project-image">
@@ -139,14 +145,14 @@
 								<img src="/resources/projects/odette-lunettes.webp" alt="Odette Lunettes screenshot" title="Odette Lunettes">
 							</a>
 							<h4 class="project-title">Odette Lunettes</h4>
-							<p>Fashion brand focussed on Optical and Sunglasses. Unique design based on the clients visual identity</p>
+							<p>Global eyewear brand with a unique design approach based on their visual identity.</p>
 						</li>
 						<li>
 							<a href="https://www.sad.be" target="_blank" class="project-image">
 								<img src="/resources/projects/sad.webp" alt="SAD screenshot" title="SAD.be">
 							</a>
 							<h4 class="project-title">SAD - Sint-Annendael</h4>
-							<p>Mental and gereatric care. Focus on delivering a lot of content in a clear and structured way.</p>
+							<p>Mental and geriatric care provider with a clear and structured website for easy access to information.</p>
 						</li>
 
 						<li>
@@ -154,7 +160,7 @@
 								<img src="/resources/projects/pouton.webp" alt="Pouderoyen Tonnaer" title="Pouderoyen Tonnaer">
 							</a>
 							<h4 class="project-title">Pouderoyen Tonnaer</h4>
-							<p>Environmental and city planning, environment and law. How can we make this look fresh? We tried!</p>
+							<p>Environmental and city planning, environment and law. Animations and a fresh style make it fresh.</p>
 						</li>
 
 
@@ -209,7 +215,7 @@
 
 	<?php include('inc/footer-scripting.php'); ?>
 
-
+	<!-- Hi! :) -->
 </body>
 
 </html>

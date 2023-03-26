@@ -370,18 +370,27 @@ ul {
 		font-size: 3.5rem;
 		line-height: 4.2rem;
 		margin-top: 0;
-		margin-bottom: 2rem;
+		margin-bottom: 3rem;
 		color: inherit;
 		@media only screen and (max-width: $container-size-m) {
 			margin-bottom: 1rem;
 		}
 	}
 
-	h3 {
-		color: inherit;
-		margin-bottom: 4rem;
-		@media only screen and (max-width: $container-size-m) {
-			margin-bottom: 2rem;
+	.portfolio-intro {
+		margin-top: 0;
+		margin-bottom: 3.5rem;
+		font-size: 1rem;
+		line-height: 1.4rem;
+		color: $dar-col;
+		background: #e3e200;
+		max-width: 45rem;
+		padding: 1.5rem;
+		border-radius: 2rem;
+		p {
+			&:last-of-type {
+				margin-bottom: 0;
+			}
 		}
 	}
 
