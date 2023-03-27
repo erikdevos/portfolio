@@ -94,7 +94,7 @@
 
 			<div class="content-wrapper column">
 				<h2 data-aos="fade-in" data-aos-duration="1500" data-aos-delay="300" data-aos-offset="10">Projects</h2>
-				<div class="portfolio-intro">
+				<div class="portfolio-intro" data-aos="fade-in" data-aos-duration="1500" data-aos-delay="300" data-aos-offset="10">
 					<p>My main task as a Front-end developer is translating a graphic design into clean and structured code that a Developer can start working with.</p>
 					
 					<p>These tasks include setting up the Git respository, setting up the project filestructure and then building the HTML and CSS/Sass. Finally, I bring the design to life through the use of Javascript/jQuery, CSS, and vector animations. After that I optimize the code for speed and search engines.</p>
@@ -199,16 +199,8 @@
 			</div>
 		</section>
 
-		<!-- Main Footer -->
-		<section class="page-row-wrapper main-footer-section">
-			<footer class="content-wrapper column">
-				<div class="footer-content">
-				<?php echo date("Y"); ?> | Erik de Vos
-				</div>
-				
-			</footer>
-
-		</section>
+		<!-- Footer -->
+		<?php include('inc/footer.php'); ?>
 
 
 	</div>

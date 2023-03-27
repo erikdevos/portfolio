@@ -301,8 +301,8 @@ ul {
 	min-height: 100vh;
 	height: auto;
 	color: $dar-col;
-	padding-top: 5rem;
-	padding-bottom: 5rem;
+	padding-top: 7rem;
+	padding-bottom: 7rem;
 
 	.content-wrapper {
 		.flex.one {
@@ -363,8 +363,8 @@ ul {
 	min-height: 100vh;
 	background-color: $dar-col;
 	color: #e3e200;
-	padding-top: 5rem;
-	padding-bottom: 5rem;
+	padding-top: 7rem;
+	padding-bottom: 7rem;
 	position: relative;
 	h2 {
 		font-size: 3.5rem;
@@ -460,7 +460,7 @@ ul {
 				margin-bottom: 2rem;
 				overflow: hidden;
 				display: block;
-				border: solid 2px $pri-col;
+				border: solid 5px $pri-col;
 				border-radius: 2rem;
 				@media only screen and (max-width: $container-size-s) {
 					width: 75vw;
@@ -501,11 +501,15 @@ ul {
 	padding-bottom: 1rem;
 	background-color: $pri-col;
 	color: $dar-col;
-	padding-top: 1.5rem;
-	padding-bottom: 1.5rem;
 
 	.footer-content {
 		color: inherit;
 		font-size: 0.9rem;
+		a {
+			color: inherit;
+			&:hover {
+				text-decoration: none;
+			}
+		}
 	}
 }
